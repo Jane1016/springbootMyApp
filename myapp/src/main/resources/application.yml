@@ -1,0 +1,13 @@
+server:
+  port: 9090
+ 
+spring:
+  datasource:
+    username: root
+    password: zjaijiner3344
+    url: jdbc:mysql://127.0.0.1:3306/myapp?useUnicode=true&characterEncoding=utf8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
